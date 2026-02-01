@@ -84,6 +84,7 @@ no navegador.
 
 João Carlos  
 Projeto para portfólio de desenvolvimento frontend.
+Linkedin: https://www.linkedin.com/in/jo%C3%A3o-carlos-melo-900816349/
 
 
 
