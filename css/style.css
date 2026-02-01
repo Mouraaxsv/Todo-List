@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background: #fff;
+  padding: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 15px;
+}
+
+li {
+  list-style: none;
+  padding: 8px;
+  background: #eee;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+  background: #ddd;
+}
+
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+/* Botão Dark Mode */
+#theme-toggle {
+  background: #ddd;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Tema escuro */
+body.dark {
+  background: #121212;
+}
+
+body.dark .container {
+  background: #1e1e1e;
+  color: #fff;
+}
+
+body.dark li {
+  background: #2a2a2a;
+}
+
+body.dark input {
+  background: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+body.dark button {
+  color: #fff;
+}
+
+.filter button {
+  opacity: 0.6;
+}
+
+.filters button.active {
+  opacity: 1;
+  font-weight: bold;
+  border: 2px solid #333;
+}
+
+body.dark.filters.button.active {
+  border-color: #fff;
+}
